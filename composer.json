@@ -1,0 +1,21 @@
+{
+    "name": "yjl/yii2admin",
+    "description": "yii2admin",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","yii2admin"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "yjl",
+            "email": "1366899978@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yjl\\yii2admin\\": ""
+        }
+    }
+}
