@@ -108,7 +108,7 @@ for ($i = 0; $i < 25; $i++) {
     ];
 }
 
-echo dmstr\widgets\Menu::widget([
+echo Yjl\yii2admin\widgets\Menu::widget([
     'items' => \yii\helpers\ArrayHelper::merge($favouriteMenuItems, $menuItems),
 ]);
 ?>

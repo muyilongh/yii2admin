@@ -33,7 +33,7 @@ if (Yii::$app->controller->action->id === 'login') {
         app\assets\AppAsset::register($this);
     }
 
-    dmstr\web\AdminLteAsset::register($this);
+    Yjl\yii2admin\web\AdminLteAsset::register($this);
     $pic = !empty(Yii::$app->user->identity->pic_url)? Yii::$app->user->identity->pic_url : CommonService::userAvatarIcon();
     // $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
     $directoryAsset = $pic;

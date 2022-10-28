@@ -5,10 +5,10 @@ return [
     'aliases' => [
         'repo' => '/repo',
         'tests/app' => '@repo/tests/_app',
-        'dmstr' => '/repo',
-        '@dmstr/web' => '/repo/web',
-        '@dmstr/widgets' => '/repo/widgets',
-        '@dmstr/helpers' => '/repo/helpers',
+        'Yjl\yii2admin' => '/repo',
+        '@Yjl\yii2admin/web' => '/repo/web',
+        '@Yjl\yii2admin/widgets' => '/repo/widgets',
+        '@Yjl\yii2admin/helpers' => '/repo/helpers',
     ],
     'controllerNamespace' => 'tests\app\controllers',
     'components' => [
