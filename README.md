@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yjl/yii2admin "*"
+php composer.phar require yjl/yii2admin:dev-master
 ```
 
 or add
 
 ```
-"yjl/yii2admin": "*"
+"yjl/yii2admin": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
